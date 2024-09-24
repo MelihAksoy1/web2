@@ -32,14 +32,6 @@ const films: Film[] = [
 
 const router = Router();
 
-let counter = 0;
-
-router.use((_req, _res, next) => {
-    counter++;
-    console.log(_req.method + " counter : " + counter);
-    next();
-  });
-
 
 
 router.get("/", (_req, res) => {
