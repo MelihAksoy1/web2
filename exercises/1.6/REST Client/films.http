@@ -1,0 +1,36 @@
+### Read all drinks
+GET http://localhost:3000/films
+
+### Read all drinks with File variable
+@baseUrl = http://localhost:3000
+GET {{baseUrl}}/films
+
+### Read a single drink
+GET {{baseUrl}}/films/2
+
+### Read all drinks cheaper or equal to 3 €
+GET {{baseUrl}}/films/?minimum-duration=h
+
+### Create a drink
+POST {{baseUrl}}/films
+Content-Type: application/json
+
+{
+    "title": "The Matrix",
+    "director" : "Lana Wachowski, Lilly Wachowski",
+    "duration" : 136,
+    "imageUrl" :"https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+    "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "budget": 63
+}
+
+### Delete a film
+DELETE {{baseUrl}}/films/2
+
+### Update the film identified by 5
+PATCH {{baseUrl}}/films/5
+Content-Type: application/json
+
+{
+    "budget":1000
+}
