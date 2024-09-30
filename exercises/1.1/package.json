@@ -1,5 +1,5 @@
 {
-  "name": "basic-api-boilerplate",
+  "name": "ex1.1",
   "version": "1.0.0",
   "author": "e-Baron",
   "private": true,
@@ -11,7 +11,7 @@
     "start": "node build/bin/www"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.21.0"
   },
   "devDependencies": {
     "@types/debug": "^4.1.12",
