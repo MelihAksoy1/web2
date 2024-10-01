@@ -40,7 +40,7 @@ PATCH {{baseUrl}}/drinks/1
 Content-Type: application/json
 
 {
-    "title":"Citronnade"
+    "title":"Citronnadee"
 }
 
 
