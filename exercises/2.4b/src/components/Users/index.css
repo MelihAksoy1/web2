@@ -1,0 +1,20 @@
+.Online {
+    color: green;
+}
+
+.Offline {
+    color: red;
+}  
+
+.alluser {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.user {
+    border: 1px white solid;
+    border-radius: 20px;
+    padding: 50px;
+}
